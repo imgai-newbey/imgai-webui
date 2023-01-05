@@ -285,7 +285,7 @@ def create_ui():
             with gr.TabItem("Available"):
                 with gr.Row():
                     refresh_available_extensions_button = gr.Button(value="Load from:", variant="primary")
-                    available_extensions_index = gr.Text(value="https://gitgud.io/AUTOMATIC1111/stable-diffusion-webui/-/wikis/Extensions-index.md", label="Extension index URL").style(container=False)
+                    available_extensions_index = gr.Text(value="https://raw.githubusercontent.com/wiki/imgai-newbey/imgai-webui/Extensions-index.md", label="Extension index URL").style(container=False)
                     extension_to_install = gr.Text(elem_id="extension_to_install", visible=False)
                     install_extension_button = gr.Button(elem_id="install_extension_button", visible=False)
 
