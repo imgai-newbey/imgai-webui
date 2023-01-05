@@ -3,10 +3,10 @@ A browser interface based on Gradio library for Stable Diffusion.
 
 ![](txt2img_Screenshot.png)
 
-Check the [custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) wiki page for extra scripts developed by users.
+Check the [custom scripts](https://github.com/imgai-newbey/imgai-webui/wiki/Custom-Scripts) wiki page for extra scripts developed by users.
 
 ## Features
-[Detailed feature showcase with images](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):
+[Detailed feature showcase with images](https://github.com/imgai-newbey/imgai-webui/wiki/Features):
 - Original txt2img and img2img modes
 - One click install and run script (but you still must install python and git)
 - Outpainting
@@ -30,7 +30,7 @@ Check the [custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-web
     - CodeFormer, face restoration tool as an alternative to GFPGAN
     - RealESRGAN, neural network upscaler
     - ESRGAN, neural network upscaler with a lot of third party models
-    - SwinIR and Swin2SR([see here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)), neural network upscalers
+    - SwinIR and Swin2SR, neural network upscalers
     - LDSR, Latent diffusion super resolution upscaling
 - Resizing aspect ratio options
 - Sampling method selection
@@ -65,13 +65,13 @@ Check the [custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-web
 - Highres Fix, a convenience option to produce high resolution pictures in one click without usual distortions
 - Reloading checkpoints on the fly
 - Checkpoint Merger, a tab that allows you to merge up to 3 checkpoints into one
-- [Custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) with many extensions from community
+- [Custom scripts](https://github.com/imgai-newbey/imgai-webui/wiki/Custom-Scripts) with many extensions from community
 - [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), a way to use multiple prompts at once
      - separate prompts using uppercase `AND`
      - also supports weights for prompts: `a cat :1.2 AND a dog AND a penguin :2.2`
 - No token limit for prompts (original stable diffusion lets you use up to 75 tokens)
 - DeepDanbooru integration, creates danbooru style tags for anime prompts
-- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), major speed increase for select cards: (add --xformers to commandline args)
+- [xformers](https://github.com/imgai-newbey/imgai-webui/wiki/Xformers), major speed increase for select cards: (add --xformers to commandline args)
 - via extension: [History tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser): view, direct and delete images conveniently within the UI
 - Generate forever option
 - Training tab
@@ -96,9 +96,9 @@ Alternatively, use online services (like Google Colab):
 ### Automatic Installation on Windows
 1. Install [Python 3.10.6](https://www.python.org/downloads/windows/), checking "Add Python to PATH"
 2. Install [git](https://git-scm.com/download/win).
-3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.
-4. Place `model.ckpt` in the `models` directory (see [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) for where to get it).
-5. _*(Optional)*_ Place `GFPGANv1.4.pth` in the base directory, alongside `webui.py` (see [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) for where to get it).
+3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/imgai-newbey/imgai-webui.git`.
+4. Place `model.ckpt` in the `models` directory (see [dependencies](https://github.com/imgai-newbey/imgai-webui/wiki/Dependencies) for where to get it).
+5. _*(Optional)*_ Place `GFPGANv1.4.pth` in the base directory, alongside `webui.py` (see [dependencies](https://github.com/imgai-newbey/imgai-webui/wiki/Dependencies) for where to get it).
 6. Run `webui-user.bat` from Windows Explorer as normal, non-administrator, user.
 
 ### Automatic Installation on Linux
@@ -113,7 +113,7 @@ sudo pacman -S wget git python3
 ```
 2. To install in `/home/$(whoami)/stable-diffusion-webui/`, run:
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/imgai-newbey/imgai-webui/master/webui.sh)
 ```
 
 ### Installation on Apple Silicon
@@ -121,10 +121,10 @@ bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusio
 Find the instructions [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).
 
 ## Contributing
-Here's how to add code to this repo: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)
+Here's how to add code to this repo: [Contributing](https://github.com/imgai-newbey/imgai-webui/wiki/Contributing)
 
 ## Documentation
-The documentation was moved from this README over to the project's [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).
+The documentation was moved from this README over to the project's [wiki](https://imgai-newbey/imgai-webui/wiki).
 
 ## Credits
 Licenses for borrowed code can be found in `Settings -> Licenses` screen, and also in `html/licenses.html` file.
