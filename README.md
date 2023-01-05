@@ -1,10 +1,8 @@
 ![favicon](https://user-images.githubusercontent.com/122021096/210778855-4d3514bb-8c9c-48e9-916a-4e7138a518bc.svg)
-
-
+___
 
 # Stable Diffusion web UI
 A browser interface based on Gradio library for Stable Diffusion.
-
 
 Check the [custom scripts](https://github.com/imgai-newbey/imgai-webui/wiki/Custom-Scripts) wiki page for extra scripts developed by users.
 
